@@ -372,3 +372,35 @@ body{
     }
 
 }
+
+
+/* Footer Section */
+
+.footer{
+    background: #0f172a;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #9ca3af;
+    font-size: 16px;
+}
+
+.footer-center a{
+    color: rgb(47, 3, 226);
+    font-size: 28px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-right a{
+    color: #9ca3af;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+/* END */
