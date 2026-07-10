@@ -1,8 +1,7 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    font-family: in;
-   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -11,10 +10,9 @@ body{
 }
 
 .container{
-    padding: 35px;
-    background-color: #ffffff;
-    
-
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 nav{
@@ -26,7 +24,7 @@ nav{
 
 }
 
-ul{
+.nav-menu{
     display: flex;
     list-style: none;
     gap: 18px;
@@ -90,6 +88,21 @@ header{
     
 }
 
+
+.Price-btn{
+    background-color: #535d7f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 18px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    
+}
+
 /* Speakers Section */
 
 .popular-bg{
@@ -110,7 +123,7 @@ header{
 }
 
 .card{
-    border: 2px solid #aba3a3;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
     box-shadow: 5px #474343;
 }
@@ -138,4 +151,86 @@ header{
 }
 .p-design{
     color: rgb(40, 35, 35);
+}
+
+
+/* Pricing Section */
+
+.pricing{
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.pricing-title h2{
+    text-align: center;
+    font-size: 50px;
+}
+.pricing-title p{
+    text-align: center;
+    padding: 20px;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-card ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.price-card li{
+    margin-bottom: 10px;
+}
+
+.pricing{
+    padding: 50px 5%;
+}
+
+.pricing-title{
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-card{
+    border: 1px solid #474746;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.price-card h5{
+    margin-bottom: 10px;
+}
+
+.price-card h2{
+    margin-bottom: 10px;
+}
+
+.price-card p{
+    margin-bottom: 20px;
+}
+
+.price-card button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.active{
+    background: #0f172a;
+    color: white;
+}
+
+.active-2{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
