@@ -1,7 +1,20 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: in;
    
+}
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    padding: 35px;
+    background-color: #ffffff;
+    
+
 }
 
 nav{
@@ -75,4 +88,54 @@ header{
     display: inline-block;
     white-space: nowrap;
     
+}
+
+/* Speakers Section */
+
+.popular-bg{
+    padding: 50px 5%;
+    background: #fff;
+}
+
+.Speakers{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card{
+    border: 2px solid #aba3a3;
+    border-radius: 5px;
+    box-shadow: 5px #474343;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.category{
+    color: #2F5BEA;
+    font-weight: bold;
+}
+
+.card h4{
+    margin: 10px 0;
+}
+
+.card p{
+    color: #1707c1;
+}
+.p-design{
+    color: rgb(40, 35, 35);
 }
